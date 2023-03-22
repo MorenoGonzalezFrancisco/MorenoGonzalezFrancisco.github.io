@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eaebef;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    float: left;
+    width: 20%;
+    /*O uno de 300px*/
+    /*Agrego un float para solucionar el problema de posicion*/
+}
+
+.nav_link{
+    color: #303440;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav_link--inside:hover{
+    background: #f6f8fa;
+}
+
+.nav_link--inside{
+    border-radius: 6px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #fff;
+}
+
+.list_item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list_item--click{
+    cursor: pointer;
+}
+
+.list_button{
+    display: flex;
+    align-items: center;
+    gap: lem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list_arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.arrow .list_arrow{
+    transform: rotate(90deg);
+}
+
+.list_show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}

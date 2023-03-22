@@ -1,0 +1,75 @@
+      /* Estilos para la sección de información personal */
+      /*
+      .personal-info {
+        float: right;
+        width: 80%;
+        padding: 20px;
+      }
+      .personal-info h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+      .personal-info h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      .personal-info p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        width: 45%;
+      }
+      .personal-info img {
+        float: right;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-left: 20px;
+      }*/
+      .personal-info {
+        float: right;
+        width: 80%;
+        padding: 20px;
+        position: relative; /* Agregamos posicionamiento relativo */
+      }
+      
+      .personal-info-text {
+        position: relative; /* Establecemos posicionamiento relativo */
+      }
+      
+      .personal-info h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+      
+      .personal-info h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      
+      .personal-info p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        width: 60%;
+      }
+      
+      .personal-info img {
+        position: absolute; /* Agregamos posicionamiento absoluto */
+        top: 0; /* Ajustamos la imagen a la parte superior del contenedor de texto */
+        right: 0; /* Ajustamos la imagen a la parte derecha del contenedor de texto */
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-left: 20px;
+      }      
+      /* Estilos para la sección de contenido */
+      .content {
+        float: right;
+        width: 80%;
+        padding: 20px;
+      }
+      /* Estilos para el pie de página */
+      footer {
+        clear: both;
+        text-align: center;
+        padding: 20px;
+      }
